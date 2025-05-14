@@ -1,0 +1,35 @@
+Awk Exercises
+
+1) Use awk to print the lines with User in column 3 of log.txt
+2) Save this to a file called user.log
+3) Use awk to substitute your name for User
+4) Use awk to print the number of "User" in column 3.
+
+
+Exercise: 
+(1) Write a simple bash script and make it executable
+(2) Make a more complex bash script and test it
+(3) make a directory call BASH_SCRIPT and add this to your PATH
+
+Next Exercise:
+
+First, make sure to have a gzipped file ready. Any file will do. Just gzip if first.
+
+(1) Write simple script with an if/then
+
+a. Make a script called store_data.sh that asks the user for a file name, 
+checks to see if the file exists, then echos the name of the file.
+
+b. Make the file executable (chmod 755 is one way) and execute it.
+Use store_data.sh to backup a text file.
+
+(2) Improve the script
+If the file exists the bash script should
+  1. Make a directory called SEQDATA
+  2. Copy the file to SEQDATA
+  3. gunzip the file in SEQDATA
+  4. Run head on the file
+
+(3) Try moving the script to /usr/local/bin
+
+
